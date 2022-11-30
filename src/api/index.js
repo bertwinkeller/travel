@@ -6,9 +6,7 @@ export const getPlacesData = async (type, sw, ne) => {
     try{
 
 
-    console.log('Hell')
-    console.log(process.env.REACT_APP_MAPS_API)
-    console.log(process.env.REACT_APP_RAPID)
+ 
       
           
         const {data: {data}} = await axios.get(`https://travel-advisor.p.rapidapi.com/${type}/list-in-boundary`, 
